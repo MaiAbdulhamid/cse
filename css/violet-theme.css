@@ -1,0 +1,40 @@
+/**** Start Default Color ****/
+.navbar-inverse
+{
+    border-bottom: 2px solid #D075EC
+}
+.option-box .color-box,
+.testemonials .carousel-indicators li.active
+{
+    border: 3px solid #D075EC
+}
+.option-box .gear-check,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.carousel-indicators .active
+{
+    background-color: #D075EC
+}
+
+.navbar-inverse .navbar-brand span,
+.about-lib h1 span,
+.testemonials span,
+.footer .wishes p span
+{
+    color: #D075EC
+} 
+
+.dropdown-menu{
+    border-top: 3px solid #D075EC
+}
+#scroll-up{background: #7C388C}
+.footer {background:  #190529; border-top: 3px solid #0F0027}
+.footer .copyright{ background: #54426F}
+#scroll-up:hover{background: #A78DBD}
+.log-in-reg .modal-content{ background: #8C75A0}
+.log-in-reg .modal-content .modal-header{ border-bottom: 1px solid #250B50}
+.log-in-reg .modal-content .modal-footer { border-top: 1px solid #250B50}
+/**** End Default Color ****/

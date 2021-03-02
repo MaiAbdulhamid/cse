@@ -1,0 +1,604 @@
+<! DOCTYPE html >
+<html>
+    <head>
+        <!-- all languages Meta -->
+        <meta charset="utf-8">
+        <!-- IE combatability Meta -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- First Mobile Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Engineering Library</title>
+        
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/default-theme.css" />
+        <link rel="stylesheet" href="css/media.css" />
+        <link rel="stylesheet" href="css/animate.css" />
+<!--
+        <link  rel='stylesheet' href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' />
+        <link rel="stylesheet" href="https://fontlibrary.org/face/droid-arabic-kufi"/>
+-->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+                <!-- Start Tool Box -->
+        <section class="option-box">
+            <div class="color-box">
+                <ul class="list-unstyled">
+                    <li data-value="css/default-theme.css"></li>
+                    <li data-value="css/violet-theme.css"></li>
+                    <li data-value="css/blue-theme.css"></li>
+                </ul>
+            </div>
+            <i class="fa fa-gear fa-3x gear-check"></i>
+        </section>
+        <!-- End Tool Box -->
+        
+        <!-- Start Navbar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+
+            <div class="navbar-header navbar-right">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#lib-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">
+                  <img style="width:80px; height:50px; margin-top:0; margin-left:5px" src="images/logo/education_book_logos.png"/>
+                  <p style="margin-bottom:10px">Eng <span>Library</span></p>
+              </a>
+            </div>
+
+
+            <div class="collapse navbar-collapse navbar-left" id="lib-nav">
+              <ul class="nav navbar-nav">
+                <li class="active  navbar-right"><a href="index.html">الرئيسية <span class="sr-only">(current)</span></a></li>
+                <li class=" navbar-left"><a href="register.html" data-toggle="modal" data-target="#exampleModal"  > سجل معانا</a> </li>
+                <li><a href="self-studing.html">التعلم الذاتي</a></li>
+                <li><a href="section-feilds.html">  مجالات القسم</a></li>
+                <li><a href="about.html">عن المكتبة</a></li>
+                <li class="dropdown ">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">سنة كام<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="yearOne.html">سنة أولى </a></li>
+                    <li><a href="yearTwo.html">سنة تانية</a></li>
+                    <li><a href="yearThree.html">سنة تالتة </a></li>
+                    <li><a href="yearFour.html">سنة رابعة </a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="faq.html">أسئلة بتتكرر</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container -->
+        </nav>
+                <!-- End Navbar -->
+        
+        <!--Start register section -->
+        <section class="log-in-reg">
+             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close exit" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title tit" id="exampleModalLabel">سجل معانا</h4>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="recipient-name" class="control-label">الايميل</label>
+                        <input type="email" class="form-control" id="recipient-name" placeholder="  اكتب ايميلك">
+                      </div>
+                      <div class="form-group">
+                        <label for="recipient-name" class="control-label">الباسوورد</label>
+                        <input type="password" class="form-control" id="recipient-name" placeholder=" اكتب الباسوورد بتاعك">
+                      </div>
+                    </form>
+                    <button type="button" class="btn btn-success">سجل الدخول</button>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">الغي كل ده</button>
+                    <a href="register.html"><button type="button" class="btn btn-success enter">اعمل حساب</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!--End register section -->
+
+        <!-- Start carousal -->
+        <div id="slide-carousal" class="carousel slide hidden-xs" data-ride="carousel">
+
+          <ol class="carousel-indicators">
+            <li data-target="#slide-carousal" data-slide-to="0" class="active"></li>
+            <li data-target="#slide-carousal" data-slide-to="1"></li>
+            <li data-target="#slide-carousal" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/Slider/01.jpg" alt="pic1">
+              <div class="carousel-caption text-center">
+                 <h2 class="h1">الكتب</h2>
+                  <p class="lead"> كل الكتب الخاصة بقسم النظم والحاسبات لجميع السنين متوفرة في أي وقت . كل اللي بتحتاجة وزيادة هتلاقيه </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/Slider/02.jpg" alt="pic2">
+              <div class="carousel-caption text-center">
+                  <h2 class="h1">طور نفسك معانا </h2>
+                  <p class="lead">هنا بنساعدك تكون زي ما المفروض تكون وبنوفرلك الكورسات اللي بتحتاجها في رحلة تطوير ذاتك وده طبعا من منطلق ايماننا ان التعلم الذاتي هو الجزء الأهم من التعليم
+                  </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/Slider/03.jpg" alt="pic2">
+              <div class="carousel-caption text-center">
+                  <h2 class="h1">المحاضرات</h2>
+                  <p class="lead">لو انت من الناس اللي مش بتعرف تكتب وهيا بتسمع المحاضرة افهم وانت متطمن ومتحملش هم الكتابة وهتلاقي كل المحاضرات مكتوبة عندنا بشكل منظم ومفيد
+                  </p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#slide-carousal" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#slide-carousal" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+                <!-- End Carousal -->
+        
+        <!-- Start Section About Us -->
+        <section class="about-lib text-center ">
+            <div class="container">
+                <h1>عن <span>المكتبة</span></h1>
+                <p class="lead"> بنوفر جميع الداتا الخاصة بقسم <strong>هندسة النظم والحاسبات </strong> اللي بيحتاجها الطلاب على مدار سنين القسم الاربعة . وكل طالب يقدر يشاركنا ويكون ليه دور في الإفادة عن طريق مشاركته بالمحاضرات والمعلومات . هدفنا نكون محطة ارشاد للطلاب ونوفر عليهم وقت ومجهود ودوخة الانتظار عشان تصوير الورق . هنا مش هنسيب لك فرصة تفشل أو تتأخر بسببها
+                </p>
+            </div>
+        </section>
+        <!-- End Section About Us  -->
+        
+        <!-- Start Section Features -->
+        <section class="features text-center">
+            <div class="container ">
+                <div class="row">
+                    
+                    <div class="col-md-4">
+                        <div class="feat wow fadeInLeft" data-wow-duration="2s" data-wow-offset="0">
+                            <span class="glyphicon glyphicon-book"></span>
+                            <h3 class="h1">كتب</h3>
+                            <p class="lead"> كل الكتب الخاصة بقسم النظم والحاسبات لجميع السنين متوفرة في أي وقت كل اللي بتحتاجة هتلاقيه </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="feat wow fadeInDown" data-wow-duration="2s" data-wow-offset="30">
+                            <span class="glyphicon glyphicon-education"></span>
+                            <h3 class="h1">طور نفسك</h3>
+                            <p class="lead">هنا بنساعدك تكون زي ما المفروض تكون وبنوفرلك الكورسات اللي بتحتاجها في رحلة تطوير ذاتك
+                            </p>
+                       </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="feat wow fadeInRight" data-wow-duration="2s" data-wow-offset="100" >
+                            <span class="glyphicon glyphicon-pencil"></span>
+                            <h3 class="h1">محاضرات</h3>
+                            <p class="lead">لو انت من الناس اللي مش بتعرف تكتب وهيا بتسمع المحاضرة افهم وانت متطمن ومتحملش هم الكتابة
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- End Section Features -->
+        
+        <!-- Start Section Testimonials -->
+        <section class="testemonials text-center"  >
+            <div class="container">
+                <h2 class="h1">بيقولو ايه عننا </h2>
+                
+                <div id="members-carousal" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <p class="lead">
+                            كلنا بنحتاج الارشاد والموقع بيوفره وبيقدمه في صورة مكتبة مختلفة بتيجلينا لحد عندنا مش بنضطر نروحلها . النجاح محتاج مشاركة بالخبرات ومحتاج توفير للوقت وده شيئ أساسي في أي انتاج عظيم .محتاج توفير للوقت والمجهود
+                        </p>
+                        <span>مي ابنة عبد الحميد </span>
+                    </div>
+                    <div class="item">
+                        <p class="lead">
+                            من أكتر الحاجات اللي ساعدتني أبتدي وحددت ليا معالم الطريق اللي همشيه كورسات المكتبة وطرق تصنيفها . حطيتلي خطة مشيت عليها ولسة همشي لحد ما حلمي يتحقق وأكون زي ما بتمنى أكون ناجحة وعارفة خطواتي كويس
+                        </p>
+                        <span>Sarah Werk</span>
+                    </div>
+                    <div class="item">
+                        <p class="lead"> الوقت اللي بنستناه في التصوير والتجميع نقدر نعمل فيه حاجات كتيرة جدا مفيش أحسن من الناس اللي بتساعد غيرها توصل لأهدافها . مفيش مانع من توفير التركيز اللي بيضيع على حاجة ملهاش قيمة وتوزيعه على حاجات أكتر نفعاً
+                        </p>
+                        <span>Moaaz Abdulhamid</span>
+                    </div>
+
+                  </div>
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#members-carousal" data-slide-to="0" class="active">
+                        <img src="images/clients/t1.jpg" />
+                      </li>
+                    <li data-target="#members-carousal" data-slide-to="1">
+                        <img src="images/clients/t2.jpg" />
+                      </li>
+                    <li data-target="#members-carousal" data-slide-to="2">
+                        <img src="images/clients/t3.jpg" />
+                      </li>
+                  </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- End Section Testimonials -->
+        
+        <!-- Start Section most popular -->
+        <section class="most-popular text-center">
+            <div class="container">
+                <h2>الأكثر قراءة</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="popular">
+                            <a hraf="#" >
+                                <img class="img-thumbnail" src="images/most-popular/01.jpg" alt="pic2"/>
+                            </a>
+                            <h3>محاضرات رياضة لسنة تالتة</h3>
+                            <p >
+                                 الكاتب : مي عبد الحميد
+                            </p>
+                            <a >باقي الموضوع</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="popular">
+                            <a hraf="#" >
+                                <img class="img-thumbnail" src="images/most-popular/02.jpg" alt="pic2"/>
+                            </a>
+                            <h3>تجميع كتب سنة رابعة</h3>
+                            <p>
+                                 الكاتب : مي عبد الحميد
+                            </p>
+                            <a >باقي الموضوع</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="popular">
+                            <a hraf="#" >
+                                <img class="img-thumbnail" src="images/most-popular/03.jpg" alt="pic2"/>
+                            </a>
+                            <h3>خطوات لسوق العمل</h3>
+                            <p>
+                                 الكاتب : مي عبد الحميد
+                            </p>
+                            <a >باقي الموضوع</a>
+                        </div>
+                     </div>
+    
+                      <div class="col-md-4">
+                            <div class="popular">
+                                <a hraf="#" >
+                                    <img class="img-thumbnail" src="images/most-popular/04.jpg" alt="pic2"/>
+                                </a>
+                            <h3> فن التعلم</h3>
+                            <p>
+                                 الكاتب : مي عبد الحميد
+                            </p>
+                            <a >باقي الموضوع</a>
+                            </div>
+                         </div>
+                        <div class="col-md-4">
+                            <div class="popular">
+                                <a hraf="#" >
+                                    <img class="img-thumbnail" src="images/most-popular/05.jpg" alt="pic2"/>
+                                </a>
+                                <h3>خطوات لحب المجال</h3>
+                                <p>
+                                     الكاتب : مي عبد الحميد
+                                </p>
+                                <a >باقي الموضوع</a>
+                            </div>
+                         </div>
+                        <div class="col-md-4">
+                            <div class="popular">
+                                <a hraf="#" >
+                                    <img class="img-thumbnail" src="images/most-popular/06.jpg" alt="pic2"/>
+                                </a>
+                                <h3>محاضرات لوجيك</h3>
+                                <p>
+                                     الكاتب : مي عبد الحميد
+                                </p>
+                                <a >باقي الموضوع</a>
+                            </div>
+                         </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section most popular -->
+        
+        <!--Start latest topices Section -->
+        
+        <section class="latest-topic wow fadeInUp" data-wow-duration="2s" data-wow-offset="0">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="text-center"> آخر المواضيع</h2>
+                        <div class="col-md-4">
+                            <div class="topic ">
+                                <img class="img-thumbnail" src="images/latest-added/01.jpg" alt="pic1"/>
+
+                                <p class="lead"> بنوفر جميع الداتا الخاصة بقسم <strong>هندسة النظم والحاسبات </strong> اللي بيحتاجها الطلاب على مدار سنين القسم الاربعة . وكل طالب يقدر يشاركنا ويكون ليه دور في الإفادة عن طريق مشاركته بالمحاضرات والمعلومات هنا مش هنسيب لك فرصة تفشل أو تتأخر بسببها</p>
+                                <a href="#" class="btn btn-success">اقرأ المزيد</a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="topic ">
+                                <img class="img-thumbnail" src="images/latest-added/02.jpg" alt="pic2"/>
+
+                                <p class="lead"> بنوفر جميع الداتا الخاصة بقسم <strong>هندسة النظم والحاسبات </strong> اللي بيحتاجها الطلاب على مدار سنين القسم الاربعة . وكل طالب يقدر يشاركنا ويكون ليه دور في الإفادة عن طريق مشاركته بالمحاضرات والمعلومات هنا مش هنسيب لك فرصة تفشل أو تتأخر بسببها</p>
+                                <a href="#" class="btn btn-success">اقرأ المزيد</a>
+        
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="topic">
+                                <img class="img-thumbnail" src="images/latest-added/03.jpg" alt="pic3"/>
+
+                                <p class="lead"> بنوفر جميع الداتا الخاصة بقسم <strong>هندسة النظم والحاسبات </strong> اللي بيحتاجها الطلاب على مدار سنين القسم الاربعة . وكل طالب يقدر يشاركنا ويكون ليه دور في الإفادة عن طريق مشاركته بالمحاضرات والمعلومات هنا مش هنسيب لك فرصة تفشل أو تتأخر بسببها</p>
+                                <a href="#" class="btn btn-success">اقرأ المزيد</a>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+        </section>
+        
+        <!--End latest topices Section -->
+        
+        <!-- Start  Courses Section -->
+        <section class="courses text-center">
+            
+             <div class="container">
+                 <h2>طور نفسك معانا</h2>
+                <div class="row">
+                    
+                    <div class="col-md-4">
+                        <div class="level-box">
+                            <h3 class="text-success">مستوى متقدم</h3>
+                            <p class="lead">
+                                ببلاش
+                            </p>
+                            <ul class="list-unstyled">
+                                <li>Programming: 6courses</li>
+                                <li>Web: 8courses</li>
+                                <li>IT: 4courses</li>
+                                <li>Cloud: 2courses</li>
+                            </ul>
+                            <a href="#" class="btn btn-success">لينكات التحميل</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="level-box">
+                            <h3 class="text-info">مستوى متوسط</h3>
+                            <p class="lead">
+                                ببلاش
+                            </p>
+                            <ul class="list-unstyled">
+                                <li>Programming: 9courses</li>
+                                <li>Web: 15courses</li>
+                                <li>IT: 4courses</li>
+                                <li>Cloud: 4courses</li>
+                            </ul>
+                            <a href="#" class="btn btn-info">لينكات التحميل</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="level-box">
+                            <h3 class="text-danger">مبتدئين</h3>
+                            <p class="lead">
+                                ببلاش
+                            </p>
+                            <ul class="list-unstyled">
+                                <li>Programming: 12courses</li>
+                                <li>Web: 18courses</li>
+                                <li>IT: 5courses</li>
+                                <li>Cloud: 7courses</li>
+                            </ul>
+                            <a href="#" class="btn btn-danger">لينكات التحميل</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- End  Courses Section -->
+        
+        <!-- Start search Section -->
+        <section class="search text-center wow fadeInLeftBig" data-wow-duration="1s" data-wow-offset="200">
+            <div class="container">
+                <i class="fa fa-space-shuttle fa-3x"></i>
+                <h2>اوصل لحاجتك أسرع</h2>
+                <div class="form">
+                    <form class="form-inline">
+                        <button class="btn btn-success">
+                            ابحث
+                        </button>
+                        <input class="form-control input-lg" type="search" placeholder="بتدور على ايه ؟" />
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- End search Section -->
+        
+        <!-- Start our team section -->
+        <section class="our-team text-center">
+            <div class="team">
+                <div class="container">
+                    <h2>فريقنــا</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="member wow pulse" data-wow-duration="2s" data-wow-offset="100">
+                                <img src="images/our-team/01.jpg" alt="pic1" class="img-circle" width="200px" height="200px"/>
+                                <h3>مي عبد الحميد</h3>
+                                <p class="lead">
+                                    مؤسسة الفريق والموقع وصاحبة فكرةالمكتبة طالبة في كلية هندسة الأزهر قسم النظم والحاسبات
+                                </p>
+                            <span >
+                                <i class="fa fa-google-plus-square fa-lg"></i>
+                                <i class="fa fa-facebook-square fa-lg"></i>
+                                <i class="fa fa-twitter-square fa-lg"></i>
+                                <i class="fa fa-youtube-square fa-lg"></i>
+                            </span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="member wow pulse" data-wow-duration="2s" data-wow-offset="100">
+                                <img src="images/our-team/02.jpg" alt="pic2" class="img-circle" width="200px" height="200px"/>
+                                <h3>مي عبد الحميد</h3>
+                                <p class="lead">
+                                    مؤسسة الفريق والموقع وصاحبة فكرةالمكتبة طالبة في كلية هندسة الأزهر قسم النظم والحاسبات
+                                </p>
+                            <span >
+                                <i class="fa fa-google-plus-square fa-lg"></i>
+                                <i class="fa fa-facebook-square fa-lg"></i>
+                                <i class="fa fa-twitter-square fa-lg"></i>
+                                <i class="fa fa-youtube-square fa-lg"></i>
+                            </span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="member wow pulse" data-wow-duration="2s" data-wow-offset="100">
+                                <img class="img-circle" src="images/our-team/03.jpg" alt="pic3" width="200px" height="200px"/>
+                                <h3>مي عبد الحميد</h3>
+                                <p class="lead">
+                                    مؤسسة الفريق والموقع وصاحبة فكرةالمكتبة طالبة في كلية هندسة الأزهر قسم النظم والحاسبات
+                                </p>
+                            <span >
+                                <i class="fa fa-google-plus-square fa-lg"></i>
+                                <i class="fa fa-facebook-square fa-lg"></i>
+                                <i class="fa fa-twitter-square fa-lg"></i>
+                                <i class="fa fa-youtube-square fa-lg"></i>
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End our team section -->
+        
+        <!-- Start subscribe Section -->
+        <section class="subscribe text-center">
+            <div class="container">
+                <h2>خليك على تواصل بينا</h2>
+                <p class="lead">خليك على تواصل بينا ومتفوتش اي حاجة ممكن تفيدك عندنا </p>
+                <div class="form">
+                    <form class="form-inline">
+                        <button class="btn btn-danger">
+                            اشتراك
+                            <i class="fa fa-smile-o fa-sm"></i>
+                        </button>
+                        <input class="form-control input-lg" type="email" placeholder=" ايميلك" />
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- End subscribe Section -->
+        <!-- Start Section Contact Us -->
+        <section class="contact-us text-center ">
+            <div class="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="intro">
+                            <i class="fa fa-users fa-4x"></i>
+                            <h2>شاركنا بأسئلتك واقتراحاتك</h2>
+                        </div>
+                        <form role="form">
+                            <div class="col-sm-6 wow bounceInRight" data-wow-duration="2s" data-wow-offset="200">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder=" اسمك"/>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder=" ايميلك"/>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="رقمك "/>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 wow bounceInleft" data-wow-duration="2s" data-wow-offset="200">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder=" رسالتك"></textarea>
+                                    <button class="btn btn-info btn-block" >اتصل بنا</button>
+                                </div>
+                            </div>  
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section Contact Us -->
+        <!-- Start Section Loading -->
+        <section class="loading-overlay">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </section>
+        <!-- End Section Loading -->
+<!-- Start Section footer -->
+        <section class="footer">
+            <div class="text-center">
+                  <p > Eng library 2016 &copy; جميع الحقوق محفوظة</p>
+                   <div class="social">
+                              <span>
+                                  <img class=" wow bounceIn" src="images/Social-icons/Facebook-48.png" alt="facebook" width="28px" height="28px" data-wow-duration="2s" data-wow-offset="30" data-wow-delay=".5s"/>
+                                  <img class=" wow bounceIn" src="images/Social-icons/Google_Plus-48.png" alt="Google_Plus" width="28px" height="28px" data-wow-duration="2s" data-wow-offset="30" data-wow-delay="1s"/>
+                                  <img class=" wow bounceIn" src="images/Social-icons/Skype-48.png" alt="Skype" width="28px" height="28px" data-wow-duration="2s" data-wow-offset="30" data-wow-delay="1.5s"/>
+                                  <img class=" wow bounceIn" src="images/Social-icons/Twitter-48.png" alt="Twitter" width="28px" height="28px" data-wow-duration="2s" data-wow-offset="30" data-wow-delay="2s"/>
+                              </span>
+                     </div>
+            </div>
+        </section>
+        <!-- End Section footer -->
+        
+        <!-- Start Scroll to up -->
+        <div id="scroll-up">
+            <i class="fa fa-chevron-up fa-2x"></i>
+        </div>
+        <!-- End Scroll to up -->
+
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+
+    </body>
+</html>
+
+        

@@ -1,0 +1,303 @@
+<! DOCTYPE html >
+<html>
+    <head>
+        <!-- all languages Meta -->
+        <meta charset="utf-8">
+        <!-- IE combatability Meta -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- First Mobile Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Engineering Library</title>
+        
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/pages.css" />
+        <link rel="stylesheet" href="css/default-theme.css" />
+        <link rel="stylesheet" href="css/media.css" />
+        <link rel="stylesheet" href="css/animate.css" />
+<!--
+        <link  rel='stylesheet' href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' />
+        <link rel="stylesheet" href="https://fontlibrary.org/face/droid-arabic-kufi"/>
+-->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+                <!-- Start Tool Box -->
+        <section class="option-box">
+            <div class="color-box">
+                <ul class="list-unstyled">
+                    <li data-value="css/default-theme.css"></li>
+                    <li data-value="css/violet-theme.css"></li>
+                    <li data-value="css/blue-theme.css"></li>
+                </ul>
+            </div>
+            <i class="fa fa-gear fa-3x gear-check"></i>
+        </section>
+        <!-- End Tool Box -->
+        
+        <!-- Start Navbar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+
+            <div class="navbar-header navbar-right">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#lib-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">
+                  <img style="width:80px; height:50px; margin-top:0; margin-left:5px" src="images/logo/education_book_logos.png"/>
+                  <p style="margin-bottom:10px">Eng <span>Library</span></p>
+              </a>
+            </div>
+
+
+            <div class="collapse navbar-collapse navbar-left" id="lib-nav">
+              <ul class="nav navbar-nav">
+                <li class="active  navbar-right"><a href="index.html">الرئيسية <span class="sr-only">(current)</span></a></li>
+                <li class=" navbar-left"><a href="register.html" data-toggle="modal" data-target="#exampleModal"  > سجل معانا</a> </li>
+                <li><a href="self-studing.html">التعلم الذاتي</a></li>
+                <li><a href="section-feilds.html">  مجالات القسم</a></li>
+                <li><a href="about.html">عن المكتبة</a></li>
+                <li class="dropdown ">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">سنة كام<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="yearOne.html">سنة أولى </a></li>
+                    <li><a href="yearTwo.html">سنة تانية</a></li>
+                    <li><a href="yearThree.html">سنة تالتة </a></li>
+                    <li><a href="yearFour.html">سنة رابعة </a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="faq.html">أسئلة بتتكرر</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container -->
+        </nav>
+                <!-- End Navbar -->
+        
+        <!--Start register section -->
+        <section class="log-in-reg">
+             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close exit" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title tit" id="exampleModalLabel">سجل معانا</h4>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="recipient-name" class="control-label">الايميل</label>
+                        <input type="email" class="form-control" id="recipient-name" placeholder="  اكتب ايميلك">
+                      </div>
+                      <div class="form-group">
+                        <label for="recipient-name" class="control-label">الباسوورد</label>
+                        <input type="password" class="form-control" id="recipient-name" placeholder=" اكتب الباسوورد بتاعك">
+                      </div>
+                    </form>
+                    <button type="button" class="btn btn-success">سجل الدخول</button>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">الغي كل ده</button>
+                    <a href="register.html"><button type="button" class="btn btn-success enter">اعمل حساب</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!--End register section -->
+
+<!--Start self Studing Section-->
+<section class="self-study-search text-center">
+    <div class="self-study-cover">
+        <div class="container">
+            <h1>عايز تتعلم ايه؟</h1>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="search-input">
+                        <form role="form">
+                            <div class="input-group">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-info btn-lg" type="submit">
+                                    <i class="fa fa-search fa-lg"></i>
+                                    </button> 
+                                </span>
+                                <input type="text" class="form-control input-lg" placeholder="          ابحث عن الكورس"/>
+                            </div>
+                        </form>
+                    </div>    
+                </div>
+                <div class="info">
+                    <div class="col-xs-12 col-sm-4 col-lg-2 col-lg-offset-3">
+                        <i class="fa fa-heart-o fa-3x"></i>
+                        <p class="lead">50 كورس</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="col-xs-12 col-sm-4 col-lg-2">
+                        <i class="fa fa-film fa-3x"></i>
+                        <p class="lead">2500 درس</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="col-xs-12 col-sm-4 col-lg-2 col-lg-offset-*">
+                        <i class="fa fa-users fa-3x"></i>
+                        <p class="lead"> 5900 عضو</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End self Studing search Section-->
+
+<!--Start Section self-study-cources -->
+<section class="self-study-courses text-center">
+    <div class="container">
+        <h2>تصنيفات الكورسات</h2>
+        <hr/>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="self-study-course">
+                    <div class="icon-box">
+                        <p class="lead">
+                            <i class="fa fa-code fa-3x"></i>
+                        </p>
+                    </div>
+                    <div class="courses-info">
+                        <h3>برمجة</h3>
+                        <p class="lead">كورسات ودروس في لغات البرمجة المختلفة كـ لغات الويب ولغات برمجة تطبيقات الهواتف ولغات برمجة تطبيقات سطح المكتب</p>
+                        <a href="#">المزيد</a>
+                    </div>  
+                </div>  
+            </div>
+            <div class="col-sm-4">
+                <div class="self-study-course">
+                    <div class="icon-box">
+                        <p class="lead">
+                            <i class="fa fa-paint-brush fa-3x "></i>
+                        </p>
+                    </div>
+                    <div class="courses-info">
+                        <h3>تصميم</h3>
+                        <p class="lead">
+                            كورسات في مختلف برامج التصميم ومجالاته مثل التصميم المطبعي ، الأشكال ثلاثية الأبعاد ، التصميم الإعلاني ... الخ 
+                        </p>
+                        <a href="#">المزيد</a>
+                    </div>  
+                </div>  
+            </div>
+            <div class="col-sm-4">
+                <div class="self-study-course">
+                    <div class="icon-box">
+                        <p class="lead">
+                            <i class="fa fa-code-fork fa-3x"></i>
+                        </p>
+                    </div>
+                    <div class="courses-info">
+                        <h3>شبكات الحاسب</h3>
+                        <p class="lead">
+                            تعتبر شبكات الحاسوب من الضروريات الحتمية في عالم الاتصالات السريعة اليوم، وتتنوع الشبكات وفقا لحجمها إلى ثلاثة أنواع رئيسية : LAN , WAN , RAN                        
+                        </p>
+                        <a href="#">المزيد</a>
+                    </div>  
+                </div>  
+            </div>
+            <div class="col-sm-4">
+                <div class="self-study-course">
+                    <div class="icon-box">
+                        <p class="lead">
+                            <i class="fa fa-user-secret fa-3x"></i>
+                        </p>
+                    </div>
+                    <div class="courses-info">
+                        <h3>أمن المعلومات</h3>
+                        <p class="lead">
+                        أمن المعلومات هو العلم الذي يعمل على توفير الحماية للمعلومات من المخاطر التي تهددها أو الاعتداء عليها وذلك من خلال توفير الأدوات والوسائل                   
+                        </p>
+                        <a href="#">المزيد</a>
+                    </div>  
+                </div>  
+            </div>
+            <div class="col-sm-4">
+                <div class="self-study-course">
+                    <div class="icon-box">
+                        <p class="lead">
+                            <i class="fa fa-laptop fa-3x"></i>
+                        </p>
+                    </div>
+                    <div class="courses-info">
+                        <h3>أنظمة التشغيل</h3>                      
+                        <p class="lead">
+                        نظام التشغيل هو مجموعة من البرمجيات المسؤولة عن إدارة الموارد (عتاد الحاسوب)، وبرمجيات الحاسوب، ويمثل وسيط بين المستخدم، وعتاد الحاسوب، ويمكن                 
+                        </p>
+                        <a href="#">المزيد</a>
+                    </div>  
+                </div>  
+            </div>
+            <div class="col-sm-4">
+                <div class="self-study-course">
+                    <div class="icon-box">
+                        <p class="lead">
+                            <i class="fa fa-wordpress fa-3x"></i>
+                        </p>
+                    </div>
+                    <div class="courses-info">
+                        <h3>تطوير الويب</h3>                       
+                        <p class="lead">
+                         كورسات في تطوير الويب وأنظمة إدارة المحتوى مثل الووردبريس وبلوجر وجوملا وشروحات مختلفة لمدراء المواقع ومطورين الويب          
+                        </p>
+                        <a href="#">المزيد</a>
+                    </div>  
+                </div>  
+            </div>
+            <div class="col-sm-12">
+                <a href="#" class="btn courses-btn">
+                    <i class="fa fa-angle-double-left fa-lg" ></i>
+                     كل الكورسات
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Section self-study-cources -->
+
+
+<!-- Start Section footer -->
+        <section class="footer">
+            <div class="text-center">
+                  <p > Eng library 2016 &copy; جميع الحقوق محفوظة</p>
+                   <div class="social">
+                              <span>
+                                  <img class=" wow bounceIn" src="images/Social-icons/Facebook-48.png" alt="facebook" width="28px" height="28px" data-wow-duration="2s" data-wow-offset="30" data-wow-delay=".5s"/>
+                                  <img class=" wow bounceIn" src="images/Social-icons/Google_Plus-48.png" alt="Google_Plus" width="28px" height="28px" data-wow-duration="2s" data-wow-offset="30" data-wow-delay="1s"/>
+                                  <img class=" wow bounceIn" src="images/Social-icons/Skype-48.png" alt="Skype" width="28px" height="28px" data-wow-duration="2s" data-wow-offset="30" data-wow-delay="1.5s"/>
+                                  <img class=" wow bounceIn" src="images/Social-icons/Twitter-48.png" alt="Twitter" width="28px" height="28px" data-wow-duration="2s" data-wow-offset="30" data-wow-delay="2s"/>
+                              </span>
+                     </div>
+            </div>
+        </section>
+        <!-- End Section footer -->
+        
+        <!-- Start Scroll to up -->
+        <div id="scroll-up">
+            <i class="fa fa-chevron-up fa-2x"></i>
+        </div>
+        <!-- End Scroll to up -->
+
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+
+    </body>
+</html>

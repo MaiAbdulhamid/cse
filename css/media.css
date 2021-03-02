@@ -1,0 +1,112 @@
+
+/* Smart phones and taplets */
+@media (max-width:767px){
+        .navbar-inverse .navbar-nav > li > a {
+            padding-bottom: 10px;
+            padding-top: 10px;
+            font-size: 14px;
+            padding-left: 274px;
+            text-align: right;
+            -webkit-transition : all 0.6s ease-in-out;
+            -o-transition : all 0.6s ease-in-out;
+            -moz-transition : all 0.6s ease-in-out;
+            transition : all 0.6s ease-in-out;
+      }
+    .navbar-inverse .navbar-nav > .active > a,
+    .navbar-inverse .navbar-nav > .active > a:hover, 
+    .navbar-inverse .navbar-nav > .active > a:focus{
+        min-height: 20px;
+        background-color: #1D9F75;
+        padding-left: 320;
+    }
+    .navbar-inverse .navbar-nav > li > a:hover{background: #1D9F75}
+    .navbar-inverse .navbar-brand{line-height: 5px}
+    .navbar-toggle { margin-top: 31px}
+    .navbar-fixed-top .navbar-collapse, 
+    .navbar-fixed-bottom .navbar-collapse{
+        max-height: none
+    }
+    .navbar-inverse .navbar-nav > li > a{ min-height: none}
+    .option-box{display: none}
+    .navbar-inverse .navbar-nav > .open > a, 
+    .navbar-inverse .navbar-nav > .open > a:hover,
+    .navbar-inverse .navbar-nav > .open > a:focus{
+        background-color:  #1D9F75
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a{
+        padding-left: 300px;
+        text-align: right;
+        color: #D5F9D7
+    }
+    .search .form form button{
+        border-top-right-radius:4px;
+        border-bottom-right-radius:4px;
+        margin-bottom: 15px;
+        position: relative;
+        bottom: -115;
+        left: 0px;
+    }
+    .search .form form input[type="search"]{
+        border-top-left-radius:4px;
+        border-bottom-left-radius:4px
+    }
+    .search h2 {
+        margin-bottom: -15px
+    }
+
+    .subscribe .form form input[type="email"]{
+        border-top-left-radius:4px;
+        border-bottom-left-radius:4px
+    }
+    .subscribe .form form button{
+        border-top-right-radius:4px;
+        border-bottom-right-radius:4px;
+        margin-bottom: 15px;
+        margin-bottom: 15px;
+        position: relative;
+        bottom: -115;
+        left: 0px
+    }
+     .subscribe p {
+            margin-bottom: -15px
+    }
+}
+
+/* Small Screen */
+@media(min-width:768px) and (max-width:991px){
+col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: right;
+}
+    .self-study-courses .self-study-course .courses-info{
+        padding-bottom: 85px
+    }
+    .self-study-courses .self-study-course .courses-info a{
+    position: relative;
+    top:60px;
+    }
+}
+
+/* Medium Screen */
+@media(min-width:992px) and (max-width:1199px){
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: right;
+}
+.col-md-6 {
+    width: 50%;
+}
+    
+}
+
+/* Large Screen */
+@media(min-width:1200px){
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: right;
+}
+.col-md-6 {
+    width: 50%;
+}
+.col-lg-offset-3 {
+    margin-left: 0;
+    margin-right: 25%;
+}
+}

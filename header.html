@@ -1,0 +1,116 @@
+<! DOCTYPE html >
+<html>
+    <head>
+        <!-- all languages Meta -->
+        <meta charset="utf-8">
+        <!-- IE combatability Meta -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- First Mobile Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Engineering Library</title>
+        
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/pages.css" />
+        <link rel="stylesheet" href="css/default-theme.css" />
+        <link rel="stylesheet" href="css/media.css" />
+        <link rel="stylesheet" href="css/animate.css" />
+<!--
+        <link  rel='stylesheet' href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' />
+        <link rel="stylesheet" href="https://fontlibrary.org/face/droid-arabic-kufi"/>
+-->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+                <!-- Start Tool Box -->
+        <section class="option-box">
+            <div class="color-box">
+                <ul class="list-unstyled">
+                    <li data-value="css/default-theme.css"></li>
+                    <li data-value="css/violet-theme.css"></li>
+                    <li data-value="css/blue-theme.css"></li>
+                </ul>
+            </div>
+            <i class="fa fa-gear fa-3x gear-check"></i>
+        </section>
+        <!-- End Tool Box -->
+        
+        <!-- Start Navbar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+
+            <div class="navbar-header navbar-right">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#lib-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.php">
+                  <img style="width:80px; height:50px; margin-top:0; margin-left:5px" src="images/logo/education_book_logos.png"/>
+                  <p style="margin-bottom:10px">Eng <span>Library</span></p>
+              </a>
+            </div>
+
+
+            <div class="collapse navbar-collapse navbar-left" id="lib-nav">
+              <ul class="nav navbar-nav">
+                <li class="active  navbar-right"><a href="index.php">الرئيسية <span class="sr-only">(current)</span></a></li>
+                <li class=" navbar-left"><a href="register.html" data-toggle="modal" data-target="#exampleModal"  > سجل معانا</a> </li>
+                <li><a href="self-studing.php">التعلم الذاتي</a></li>
+                <li><a href="section-feilds.php">  مجالات القسم</a></li>
+                <li><a href="about.php">عن المكتبة</a></li>
+                <li class="dropdown ">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">سنة كام<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="yearOne.php">سنة أولى </a></li>
+                    <li><a href="yearTwo.php">سنة تانية</a></li>
+                    <li><a href="yearThree.php">سنة تالتة </a></li>
+                    <li><a href="yearFour.php">سنة رابعة </a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="faq.php">أسئلة بتتكرر</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container -->
+        </nav>
+                <!-- End Navbar -->
+        
+        <!--Start register section -->
+        <section class="log-in-reg">
+             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close exit" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title tit" id="exampleModalLabel">سجل معانا</h4>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="recipient-name" class="control-label">الايميل</label>
+                        <input type="email" class="form-control" id="recipient-name" placeholder="  اكتب ايميلك">
+                      </div>
+                      <div class="form-group">
+                        <label for="recipient-name" class="control-label">الباسوورد</label>
+                        <input type="password" class="form-control" id="recipient-name" placeholder=" اكتب الباسوورد بتاعك">
+                      </div>
+                    </form>
+                    <button type="button" class="btn btn-success">سجل الدخول</button>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">الغي كل ده</button>
+                    <a href="register.php"><button type="button" class="btn btn-success enter">اعمل حساب</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!--End register section -->
